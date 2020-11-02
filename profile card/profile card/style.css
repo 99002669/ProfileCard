@@ -68,7 +68,7 @@ body{
 
 .desc{
   font-size: 18px;
-  color: #e66767;
+  color: white;
 }
 
 .sm{
@@ -91,14 +91,29 @@ body{
 .contact-btn{
   display: inline-block;
   padding: 12px 50px;
-  color: #e66767;
-  border: 2px solid #e66767;
+  color: white;
+  border: 2px solid white;
   border-radius: 6px;
   margin-top: 16px;
   transition: .3s linear;
 }
 
 .contact-btn:hover{
+  /* background: #e66767; */
+  color: #f2f2f2;
+}
+
+.profile-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+}
+
+.profile-btn:hover{
   background: #e66767;
   color: #f2f2f2;
 }
